@@ -14,8 +14,8 @@ https://www.kancloud.cn/ichenpeng/blog/1096725
 ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
-// theme
-ZSH_THEME="alanpeabody"
+// theme vim ~/.zshrc
+ZSH_THEME="juanghurtado"
 
 // alias
 cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh
