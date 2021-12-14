@@ -1,6 +1,6 @@
 # Docker
 
-**install**
+## install
 ```
 https://docs.docker.com/engine/install/ubuntu/
 
@@ -15,7 +15,7 @@ sudo service docker restart
 
 ```
 
-**命令**
+## 命令 
 ```
 查看所有的容器
 docker ps -a

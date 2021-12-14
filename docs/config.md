@@ -1,6 +1,6 @@
 # Config
 
-**oh-my-zsh**
+## oh-my-zsh
 ```go
 https://sysin.org/blog/linux-zsh/
 
@@ -23,7 +23,7 @@ cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 source ~/.zshrc
 ```
 
-**redis**
+## redis 
 ```go
 ps -ef | grep redis
 
@@ -33,7 +33,7 @@ kill -9 ${pid}
 sudo service redis-server start
 ```
 
-**profile**
+## profile 
 ```
  /etc/profile，/etc/bashrc 是系统全局环境变量设定 
  ~/.profile，~/.bashrc用户家目录下的私有环境变量设定 

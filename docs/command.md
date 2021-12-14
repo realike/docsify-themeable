@@ -1,5 +1,6 @@
 # Command
 
+## tail
 ```
 tail -fn 10 access.log
 
