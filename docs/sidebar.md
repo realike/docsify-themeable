@@ -2,6 +2,7 @@
 - [Git](git)
 - [Docker](docker)
 - [Command](command)
+- [Gorm](gorm)
 - [Mysql](mysql)
 - [Mongodb](mongodb)
 - [Markdown](markdown)
