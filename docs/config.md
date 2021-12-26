@@ -48,3 +48,60 @@ sudo service redis-server start
  ~/.profile可以设定本用户专有的路径，环境变量，等，它只能登入的时候执行一次 
  ~/.bashrc也是某用户专有设定文档，可以设定路径，命令别名，每次shell script的执行都会使用它一次
 ```
+
+## go安装
+```shell
+# 好像还基于GOPATH, 有空优化
+sudo tar -C /usr/local -xzf go1.14.linux-amd64.tar.gz
+
+code ~/.bashrc
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=/home/dwx/go
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn
+source ~/.bashrc
+
+mkdir bin pkg src
+
+# 新项目配置
+src -> git clone -> go mod tidy
+vscode -> wsl插件 -> Go:Install/Update Tools(ctr+shift+p)
+
+# ref
+注: 查看go工程项目结构的问题(GOPATH问题, 以及用来GO module后不再需要GOPATH ref: [1, 2])
+1: https://www.flysnow.org/2021/05/15/install-golang.html
+2: GOPATH GOROOT 工程目录区别 https://www.cnblogs.com/zhaof/p/7906722.html
+3: https://www.v2ex.com/t/799639
+4: https://www.cnblogs.com/zhaojingyu/p/9008877.html
+```
+
+## wsl2安装
+```shell
+##手动安装  
+https://docs.microsoft.com/zh-cn/windows/wsl/install-manual
+
+# 命令  
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+重启Windows
+
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+wsl --set-default-version 2
+
+
+## 自动安装  
+https://docs.microsoft.com/zh-cn/windows/wsl/install
+
+
+
+## Ubuntu 20.04设置  
+https://docs.microsoft.com/zh-cn/windows/wsl/setup/environment#set-up-your-linux-user-info
+
+sudo passwd root
+```
+
+
