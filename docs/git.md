@@ -41,3 +41,17 @@ IdentityFile ~/.ssh/id_rsa
 ssh -T git@codeup.aliyun.com
 ssh -T git@github.com
 ```
+
+## git回退
+场景
+本来想把github上的newpbft合并到本地的newpbft分支上，由于没有查看当前分支，直接运用git pull origin newpbft，结果将newpbft合并到了master分支中
+```
+git reflog
+
+git reset --hard
+```
+
+## git拉取远程至本地
+```
+git checkout --track origin/dev
+```
