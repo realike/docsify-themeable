@@ -17,6 +17,9 @@ ssh-keygen -t rsa -C '861579607@qq.com' -f ~/.ssh/id_rsa
 git config --global user.name "realike"
 git config --global user.email "861579607@qq.com"
 git config --global --list
+
+git config --global pager.branch false
+git config --global pager.stash false
 ```
 
 ## git多账户配置 

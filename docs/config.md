@@ -23,6 +23,13 @@ cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 source ~/.zshrc
 ```
 
+```shell
+# zsh history
+sudo npm install -g zsh_history
+
+zsh_history
+```
+
 ## redis 
 ```go
 ps -ef | grep redis
