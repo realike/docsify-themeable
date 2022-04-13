@@ -1,5 +1,6 @@
-# Go配置
+# Go
 
+## go env
 ```
 go env -w GOPROXY=https://goproxy.cn
 
