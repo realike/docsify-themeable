@@ -58,3 +58,10 @@ git reset --hard
 ```
 git checkout --track origin/dev
 ```
+
+## git撤销最新一次commit
+```
+git reset --soft HEAD^
+
+git restore --staged . 
+```
