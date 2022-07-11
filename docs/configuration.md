@@ -15,7 +15,7 @@ ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 // theme vim ~/.zshrc
-ZSH_THEME="juanghurtado"
+ZSH_THEME="dst"
 
 // alias
 cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh
@@ -81,6 +81,9 @@ vscode -> wsl插件 -> Go:Install/Update Tools(ctr+shift+p)
 2: GOPATH GOROOT 工程目录区别 https://www.cnblogs.com/zhaof/p/7906722.html
 3: https://www.v2ex.com/t/799639
 4: https://www.cnblogs.com/zhaojingyu/p/9008877.html
+
+fin: https://www.cnblogs.com/wjaaron/p/14797003.html
+manage go version: https://github.com/owenthereal/goup
 ```
 
 ## wsl2安装

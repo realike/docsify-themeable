@@ -52,6 +52,8 @@ ssh -T git@github.com
 git reflog
 
 git reset --hard
+
+ref: https://blog.csdn.net/code_segment/article/details/78597441
 ```
 
 ## git拉取远程至本地
