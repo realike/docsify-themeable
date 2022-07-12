@@ -32,3 +32,19 @@ func main() {
 ```
 有哪些值得学习的 Go 语言开源项目？ - 知乎 https://www.zhihu.com/question/20801814
 ```
+
+```
+JWT
+单元测试
+设计模式
+高性能mysql
+http/tcp
+vue3
+golang sync锁和mysql锁
+
+========================
+
+微服务与RPC的关系
+
+++++++++++++++++++++++++
+```
