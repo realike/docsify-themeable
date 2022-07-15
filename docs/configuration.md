@@ -58,18 +58,17 @@ sudo service redis-server start
 
 ## go安装
 ```shell
-# 好像还基于GOPATH, 有空优化
 sudo tar -C /usr/local -xzf go1.14.linux-amd64.tar.gz
 
-code ~/.bashrc
+use ~/.zshrc 添加覆盖~/.bashrc
 export GOROOT=/usr/local/go
-export PATH=$PATH:$GOROOT/bin
 export GOPATH=/home/dwx/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
-source ~/.bashrc
 
-mkdir bin pkg src
+在GOPATH下创建
+mkdir bin && mkdir pkg && mkdir src
 
 # 新项目配置
 src -> git clone -> go mod tidy
@@ -82,7 +81,7 @@ vscode -> wsl插件 -> Go:Install/Update Tools(ctr+shift+p)
 3: https://www.v2ex.com/t/799639
 4: https://www.cnblogs.com/zhaojingyu/p/9008877.html
 
-fin: https://www.cnblogs.com/wjaaron/p/14797003.html
+finally: https://www.cnblogs.com/wjaaron/p/14797003.html
 manage go version: https://github.com/owenthereal/goup
 ```
 
