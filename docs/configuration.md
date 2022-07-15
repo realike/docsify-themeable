@@ -3,12 +3,37 @@
 ## oh-my-zsh
 ```go
 https://sysin.org/blog/linux-zsh/
-
 https://zhuanlan.zhihu.com/p/351281543
 
-https://www.kancloud.cn/ichenpeng/blog/1096725
+// add .bashrc path to .zshrc
 
-// add path to .zshrc
+echo $SHELL
+sudo apt install zsh
+sudo chsh -s /bin/zsh
+
+sudo chsh -s /bin/zsh <username>
+# <username> 替换为实际用户名 <dwx>
+
+sudo apt install git
+
+install zsh:
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+zsh-autosuggestions:
+git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-autosuggestions
+
+zsh-syntax-highlighting:
+git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+
+add to:
+ZSH_THEME="re5et"
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+
 
 //  取消下划线
 ZSH_HIGHLIGHT_STYLES[path]=none
