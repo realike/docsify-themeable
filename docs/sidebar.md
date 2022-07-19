@@ -12,4 +12,4 @@
 - [markdown](markdown)
 - [guitar](guitar)
 - **Links**
-- [![Github](assets/img/github.svg)Github](https://github.com/realike)
+- [![github](assets/img/github.svg)Github](https://github.com/realike)
