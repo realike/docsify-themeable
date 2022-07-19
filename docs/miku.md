@@ -1,4 +1,4 @@
 # 
 
-![](assets/img/miku/miku.jpg ":no-zoom" )
+![](assets/img/miku/miku1.jpg ":no-zoom" )
 
