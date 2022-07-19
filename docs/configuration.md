@@ -138,4 +138,12 @@ https://docs.microsoft.com/zh-cn/windows/wsl/setup/environment#set-up-your-linux
 sudo passwd root
 ```
 
+## gcc install
+```
+sudo apt update
+sudo apt install build-essential
 
+sudo apt-get install manpages-dev
+
+ref: https://www.myfreax.com/how-to-install-gcc-on-ubuntu-20-04/
+```
