@@ -102,4 +102,16 @@
 答：是，尤其是銀色的中MIC，十分重要！
 
 ref: http://bbs.beyondbwg.cn/thread-17903-1-1.html
+
+「我喜欢用Fender Telecaster，就在十六、七年前，Beyond在〈不再犹豫〉时期已开始用，与此同时也有用Gibson的335或SG，那都是当时我爱用的结他。
+
+「后来变成全线弹Telecaster，因为Gibson有时的声音较恶，会与主唱的人声不太夹，变成Mixing上听到的结他声太『弹』出来。
+
+「我爱用Telecaster，一来我平日在家中练习结他，用的是木结他，既方便又不会嘈到邻居与家人，而Telecaster就是最接近木结他的结他，因为那六条弦都是直接穿过Body来上实，好稳定的结他，就算Tune好后放置一个月也不会走音。二来它好简单，愈简单便愈少出事，最重要是它没有Gibson的恶，木头味重，我尤爱用Maple木，中低音好靓，清声无可取代。
+
+「以前用黑色那支Telecaster是James Burton的，但我太爱这支结他，不想很快弹坏它，所以近年便用Custom Made那支Telecaster取代之。
+
+「这是Fender按照我原本那支去订造，但要结他颈有几粗便做到几粗，因我在台上演出时动作很大，所以我必需要手感好够。同时，我『阉』了最尾那个Pick-Up，故此到拨尽也只有Fourth Way，这是我的签名式声音。
+
+「录音时，我用Trace Elliot的100W胆Amp头，或Mesa Boogie Rectifier的。Effect用得不多，只有加少少Compression，一个二十年DBX的160A，一个第一代的Alesis，以及用一个Mesa Boogie的前级。」
 ```

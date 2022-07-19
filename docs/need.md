@@ -40,7 +40,7 @@ JWT
 高性能mysql
 http/tcp
 vue3
-golang sync锁和mysql锁
+golang sync锁和mysql锁(读写锁)
 
 ========================
 
