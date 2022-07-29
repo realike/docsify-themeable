@@ -15,6 +15,21 @@ sudo service docker restart
 
 ```
 
+## 镜像
+```
+https://cr.console.aliyun.com/eu-central-1/instances/mirrors
+
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://yp87mt7e.mirror.aliyuncs.com"]
+}
+EOF
+
+sudo service docker restart
+
+docker info
+```
+
 ## 命令 
 ```
 查看所有的容器
