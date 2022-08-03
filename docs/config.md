@@ -171,3 +171,13 @@ curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection re
 199.232.68.133 avatars2.githubusercontent.com
 199.232.68.133 avatars1.githubusercontent.com
 ```
+
+## wsl2 内存
+```
+限制VM的内存使用
+Windows + R, %UserProfile% 并运行进入用户文件夹
+新建文件 .wslconfig 
+
+[wsl2]
+memory=10GB  # Limits VM memory in WSL 2GB, also can be set to other values
+```
