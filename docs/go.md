@@ -14,3 +14,7 @@ string := strconv.Itoa(int)
 // int64 to string
 string := strconv.FormatInt(int64,10)
 ```
+
+## string byte rune
+```go
+```
