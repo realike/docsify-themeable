@@ -44,3 +44,20 @@ docker exec -it
 清除终止状态容器
 docker container prune
 ```
+```
+docker中 启动所有的容器命令
+docker start $(docker ps -a | awk '{ print $1}' | tail -n +2)
+
+docker中 关闭所有的容器命令
+docker stop $(docker ps -a | awk '{ print $1}' | tail -n +2)
+
+docker中 删除所有的容器命令
+docker rm $(docker ps -a | awk '{ print $1}' | tail -n +2)
+
+docker中 删除所有的镜像
+docker rmi $(docker images | awk '{print $3}' |tail -n +2)
+
+echo "aa bb cc" | awk -F '{print $1}' 结果就是aa，意思是把字符串按空格分割，取第一个。
+awk 是用来提取列的主要工具；
+{print $1} 就是将某一行（一条记录）中以空格为分割符的第一个字段打印出来。
+```
