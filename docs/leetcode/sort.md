@@ -48,6 +48,8 @@ func sort(slice []int) {
 ```
 
 ## 希堆快归O(nlogn)
+
+## 快速排序
 ```go
 
 ```
