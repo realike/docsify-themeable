@@ -1,5 +1,10 @@
 # myself
 
+## important
+```
+注重空指针问题(空值|未声明)
+```
+
 ## need
 ```
 JWT
@@ -13,6 +18,9 @@ golang sync锁和mysql锁(读写锁)
 go 调试(单步调试)
 文件字节byte流
 文件上传 切片上传
+io.ReadCloser
+gorm deleted_at是否
+计算机 CPU密集型与IO
 ========================
 
 微服务与RPC的关系
@@ -24,7 +32,16 @@ go gc 泛型 reflect
 Gin直接打panic会怎样, 如果是在协程中呢
 redis原理 IO多路复用(具体在多线程每一个下?)
 go 协程刷题
+PostgreSQL
+golang要不要统一int int32 int64
+分库分表, PostgreSQL
 ========================
+```
+
+## 项目
+```
+linwear-api grpc调用文件上传rpc, 以及pb文件的管理
+rpc调试监控, go-zero-looklook那一套
 ```
 
 ## 微服务
@@ -48,4 +65,9 @@ go api接口代码, 在生产环境线上用户百万
 ## 规划
 ```
 电动汽车
+```
+
+## HR
+```
+试用期薪资
 ```
