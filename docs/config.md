@@ -181,3 +181,9 @@ Windows + R, %UserProfile% 并运行进入用户文件夹
 [wsl2]
 memory=10GB  # Limits VM memory in WSL 2GB, also can be set to other values
 ```
+
+## node install
+```
+ref: https://github.com/nvm-sh/nvm
+ref: https://mupceet.com/2020/02/the-best-way-to-install-nodejs/
+```
