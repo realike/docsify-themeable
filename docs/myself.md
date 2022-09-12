@@ -51,6 +51,7 @@ go-zero go-stash等拉取ETL
 ```
 服务注册与发现中心(Consul, Etcd, Zookeeper)
 Kubernetes
+并发与分布式
 
 K8S又解决了以上什么痛点
 ```
