@@ -24,6 +24,7 @@ gorm deleted_at是否
 json-rpc grpc
 公链白皮书
 mysql 索引
+go本地http get post[文件上传]
 ========================
 
 微服务与RPC的关系
@@ -38,6 +39,10 @@ go 协程刷题
 PostgreSQL
 golang要不要统一int int32 int64
 分库分表, PostgreSQL
+golang server 单独写 handlerFunc
+sql建库 查看当前的隔离级别
+redis面经
+mysql 如何分区分表
 ========================
 ```
 
@@ -51,7 +56,7 @@ go-zero go-stash等拉取ETL
 ## 微服务
 ```
 服务注册与发现中心(Consul, Etcd, Zookeeper)
-Kubernetes
+Kubernetes istio
 并发与分布式
 
 K8S又解决了以上什么痛点
@@ -111,4 +116,10 @@ web3
 ## HR
 ```
 试用期薪资
+```
+
+## 简历
+```
+细化后端负责的部分 开发维护适配
+用户模块 手表模块 配置模块 文件模块 [订单模块 支付模块]
 ```
