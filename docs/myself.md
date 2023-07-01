@@ -80,42 +80,12 @@ web3
 
 ## 职位
 ```
-工作职责：
-1. 负责 SaaS API 平台等业务的基础平台的开发；
-2. 负责编写从 Ethereum、BSC、Polygon 等公链拉取数据的同步服务；
-3. 负责 ETL平台、数据查询服务等应用的开发与维护。
-任职要求：
-1. 本科及以上学历，计算机或相关理工科专业背景，2 年以上后端开发经验；
-2. 熟练掌握 Golang、Java、C++、Scala 中至少一种开发语言，公司主要语言为 Golang(服务端)和 Java(数据平台)。
-3. 熟练掌握SQL语法，熟悉 OLTP(MySQL/TIDB) or OLAP(ClickHouse) 数据库的使用和基本的性能调优技巧；
-4. 熟悉 Redis(Codis)、Kafka(Pulsar)、ElasticSearch 等常见中间件的使用场景以及核心原理；
-5. 熟悉TCP、HTTP协议，熟悉主流的Web安全防护设计；
-6. 熟悉Hadoop、Flink等大数据组件源码和技术原理者优先；
-7. 较好的业务理解能力、抽象思维能力；
-8. 具备良好的团队协作精神和沟通能力，有较强的执行能力和项目迭代意识；
-9. 英文读写能力（4、6级）优秀者优先；
-10. 熟悉区块链(Ethereum、BSC、Polkadot) 者优先(无强制要求，可加入后学习)。
 
-工作职责：
-1. 负责 SaaS API 平台等业务的基础平台的开发；
-2. 负责编写从 Ethereum、BSC、Polygon 等公链拉取数据的同步服务；
-3. 负责 ETL平台、数据查询服务等应用的开发与维护；
-4. 负责解析热门的 DeFi protocol 编写相应的 indexing Job。
-任职要求：
-1. 本科以上学历，计算机或相关理工科专业背景，2年以上后端开发经验;
-2. 熟悉Golang、Java、C++、Scala中至少一种开发语言， 公司主要语言位Golang；
-3. 熟悉掌握SQL语法， 熟悉OLTP(MySQL/TiDB) or OLAP(ClickHouse)数据库的使用和基本的性能调优技巧;
-4. 熟悉Hadoop、Flink等大数据组件源码和技术原理者优先;
-5. 较好的业务理解能力、抽象思维能力。
-加分项：
-1. 英文读写能力(4、6级) 优秀者优先;
-1. 熟悉 Solidity、Truffle、Hardhat 者优先；
-2. 熟悉 Uniswap、Aave、Curve 等协议以及主流的 ERC 标准者优先。
 ```
 
 ## HR
 ```
-试用期薪资
+试用期薪资, 试用期考核, 薪资组成
 ```
 
 ## 简历

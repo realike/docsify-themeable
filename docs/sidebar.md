@@ -10,8 +10,9 @@
 - [mongodb](mongodb)
 - [gorm](gorm)
 - [config](config)
-- [contrast](contrast)
+- [diff](diff)
 - [markdown](markdown)
+- [sort](leetcode/sort)
 - [guitar](guitar)
 - **Links**
 - [![github](assets/img/github.svg)](https://github.com/realike)
